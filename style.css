@@ -1,0 +1,62 @@
+@media only screen and (min-width: 769px) {
+    #small, #medium {
+        display: none;
+    }
+    body {
+        background-color: lightblue;
+    }
+    .larger {
+        font-size: large;
+    }
+    .flex-container {
+        display: flex;
+    }
+}
+
+
+@media only screen and (min-width: 301px) and (max-width: 768px){
+    #large, #small {
+        display: none;
+    }
+    body {
+        background-color: green;
+    }
+    .mediumer {
+        font-size: medium;
+    }
+}
+
+@media only screen and (max-width: 300px) {
+    #large, #medium {
+        display: none;
+    }
+    body {
+        background-color: red;
+    }
+    .smaller {
+        font-size: small;
+    }
+
+}
+.hey1 {
+    width: 60%;
+    text-align: center;
+    background-color: white;
+    margin: 20px;
+    padding: 5px;
+}
+.hey2 {
+    width: 33%;
+    text-align: center;
+    background-color: white;
+    margin: 20px;
+    padding: 5px;
+}
+.hey3 {
+    width: 100%;
+    text-align: center;
+     background-color: white;
+     margin: 20px;
+     padding: 5px;
+ }
+
